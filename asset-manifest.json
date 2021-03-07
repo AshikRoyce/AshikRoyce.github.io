@@ -1,18 +1,25 @@
 {
   "files": {
-    "main.js": "/static/js/main.b9e29bff.chunk.js",
-    "main.js.map": "/static/js/main.b9e29bff.chunk.js.map",
+    "main.js": "/static/js/main.7b4aedd7.chunk.js",
+    "main.js.map": "/static/js/main.7b4aedd7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3c9c7978.js",
     "runtime-main.js.map": "/static/js/runtime-main.3c9c7978.js.map",
-    "static/js/2.c49146b7.chunk.js": "/static/js/2.c49146b7.chunk.js",
-    "static/js/2.c49146b7.chunk.js.map": "/static/js/2.c49146b7.chunk.js.map",
+    "static/js/2.0e9e0d5e.chunk.js": "/static/js/2.0e9e0d5e.chunk.js",
+    "static/js/2.0e9e0d5e.chunk.js.map": "/static/js/2.0e9e0d5e.chunk.js.map",
     "index.html": "/index.html",
-    "static/js/2.c49146b7.chunk.js.LICENSE.txt": "/static/js/2.c49146b7.chunk.js.LICENSE.txt",
-    "static/media/ashik.6cbbc9a4.JPG": "/static/media/ashik.6cbbc9a4.JPG"
+    "static/js/2.0e9e0d5e.chunk.js.LICENSE.txt": "/static/js/2.0e9e0d5e.chunk.js.LICENSE.txt",
+    "static/media/ashik.JPG": "/static/media/ashik.6cbbc9a4.JPG",
+    "static/media/close.svg": "/static/media/close.10fa8da4.svg",
+    "static/media/docker.png": "/static/media/docker.788da72d.png",
+    "static/media/github.9544f549.svg": "/static/media/github.9544f549.svg",
+    "static/media/linkedin.784c1d72.svg": "/static/media/linkedin.784c1d72.svg",
+    "static/media/mail.33c11c45.svg": "/static/media/mail.33c11c45.svg",
+    "static/media/telegram.18002451.svg": "/static/media/telegram.18002451.svg",
+    "static/media/unix.png": "/static/media/unix.1a654335.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3c9c7978.js",
-    "static/js/2.c49146b7.chunk.js",
-    "static/js/main.b9e29bff.chunk.js"
+    "static/js/2.0e9e0d5e.chunk.js",
+    "static/js/main.7b4aedd7.chunk.js"
   ]
 }
