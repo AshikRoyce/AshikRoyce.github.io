@@ -21,6 +21,7 @@
   "description": "",
   "dependencies": {
     "framer-motion": "^3.10.0",
+    "moment": "^2.29.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-intersection-observer": "^8.31.0",

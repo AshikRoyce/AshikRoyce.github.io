@@ -7,6 +7,9 @@ import { experienceFn } from "./Experience";
 
 import { Header } from "./Header";
 import { Presentation } from "./Presentation";
+import { Skills } from "./Skills";
+import { LeftMenu } from "./LeftMenu";
+import { RightMenu } from "./RightMenu";
 
 export const getSelection = (skillsAndChallenges) => {
 	const url = new URLSearchParams(window.location.search);
@@ -185,6 +188,9 @@ const App = () => {
 				<MediaQuery minDeviceWidth={1224}>
 					<Header />
 					<Presentation />
+					<Skills />
+					<LeftMenu />
+					<RightMenu idx={currentPage} onChange={setCurrentPage} />
 				</MediaQuery>
 				<MediaQuery maxDeviceWidth={1224}>
 					<h1>Hey</h1>
