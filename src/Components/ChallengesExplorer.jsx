@@ -127,7 +127,7 @@ const ChallengeCard = (props) => {
 						width: 60,
 						height: 60,
 					}}>
-					<img
+					{/* <img
 						style={{
 							borderRadius: 8,
 							height: 60,
@@ -135,7 +135,7 @@ const ChallengeCard = (props) => {
 						}}
 						src={require(`./challenges/${props.challenge.image}`)}
 						alt={props.challenge.name}
-					/>
+					/> */}
 				</div>
 				<ChallengeTextContainer>
 					<span>{props.challenge.name}</span>
@@ -219,14 +219,14 @@ const ChallengesSectionDisplay = (props) => {
 					flexWrap: "wrap",
 					marginRight: 10,
 				}}>
-				{props.challenges.map((challenge) => (
+				{props.challenges.map((challenge, index) => (
 					<ChallengeCard
 						sectionVisible={amount !== 0}
 						selectedSkill={props.selectedSkill}
 						onClick={() => {
 							props.selectChallenge(challenge);
 						}}
-						key={challenge.name}
+						key={index}
 						challenge={challenge}
 					/>
 				))}
@@ -285,15 +285,17 @@ export const ChallengesExplorer = (props) => {
 					</div>
 					{Object.keys(sortedChallenges.past)
 						.sort((y1, y2) => parseInt(y2) - parseInt(y1))
-						.map((year) => (
-							<ChallengesSectionDisplay
-								selectChallenge={skillsContext.selectChallenge}
-								selectedSkill={skillsContext.selectedSkill}
-								key={year}
-								name={year}
-								challenges={sortedChallenges.past[year]}
-							/>
-						))}
+						.map((year, index) => {
+							return (
+								<ChallengesSectionDisplay
+									selectChallenge={skillsContext.selectChallenge}
+									selectedSkill={skillsContext.selectedSkill}
+									key={index}
+									name={year}
+									challenges={sortedChallenges.past[year]}
+								/>
+							);
+						})}
 				</div>
 			)}
 		</InView>

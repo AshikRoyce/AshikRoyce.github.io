@@ -7,7 +7,7 @@ const MediaQuery = require("react-responsive").default;
 const useMediaQuery = require("react-responsive").useMediaQuery;
 
 import { Experience } from "../Context";
-import { ReactComponent as Close } from "../images/close.svg";
+import { ReactComponent as Close } from "../icons/close.svg";
 
 const MobileChallengeModalContainer = styled(motion.div)`
 	position: fixed;
@@ -240,7 +240,7 @@ const ChallengeModalContent = () => {
 				/>
 			</div>
 			<ImageBannerContainer color={lastChallenge.theme}>
-				<ChallengeImage src={require(`./challenges/${lastChallenge.image}`)} />
+				{/* <ChallengeImage src={require(`./challenges/${lastChallenge.image}`)} /> */}
 			</ImageBannerContainer>
 			<DescriptionContainer>
 				<Field
@@ -289,9 +289,9 @@ const ChallengeModalContent = () => {
 								flexWrap: "wrap",
 								marginTop: 12,
 							}}>
-							{lastChallenge.skills.map((skillName) => (
+							{lastChallenge.skills.map((skillName, index) => (
 								<StaticSkillCard
-									key={skillName}
+									key={index}
 									skill={skillsContext.skills[skillName]}
 								/>
 							))}

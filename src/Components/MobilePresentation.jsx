@@ -4,63 +4,55 @@ import { motion, AnimatePresence } from "framer-motion";
 import { InView } from "react-intersection-observer";
 import { Element } from "react-scroll";
 
-import { Component } from "./Common";
+import { MobileComponent } from "./Common";
+
 import me from "../images/ashik.JPG";
 
 const Title = styled(motion.h1)`
 	text-transform: uppercase;
 	font-weight: 500;
-	font-size: 60px;
+	font-size: 30px;
 	opacity: 0.7;
 	margin: 0;
 `;
 
 const Description = styled(motion.p)`
 	line-break: strict;
-	max-width: 500px;
-	font-size: 22px;
+	font-size: 16px;
 	opacity: 0.6;
-	padding-left: 20px;
-	border-left: 2px solid ${(props) => props.theme.componentColorLight};
 `;
 
 const ProfileImage = styled(motion.img)`
 	z-index: 3;
-	width: 300px;
+	width: 150px;
 	border-radius: 150px;
 `;
 
 const PresentationContainer = styled.div`
-	height: 100%;
-	width: 100%;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 `;
 
 const ProfileImageContainer = styled.div`
-	width: 50%;
-	position: relative;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	margin-right: calc(-50vw);
 `;
 
 const TextContainer = styled.div`
 	display: flex;
 	flex-direction: column;
-	width: 50%;
-	padding: 20px;
 	text-align: justify;
 	text-justify: inter-word;
-	z-index: 91;
 `;
 
-export const Presentation = () => {
+export const MobilePresentation = () => {
 	return (
-		<Component>
+		<MobileComponent>
 			<Element
 				name='presentation'
 				style={{
@@ -69,10 +61,10 @@ export const Presentation = () => {
 				}}>
 				<PresentationContainer>
 					<AnimatePresence>
-						<ProfileImageContainer key={"image"}>
+						<ProfileImageContainer>
 							<InView>
 								{({ inView, ref }) => (
-									<>
+									<div key={"content"}>
 										<motion.div
 											variants={{
 												hidden: {
@@ -97,18 +89,18 @@ export const Presentation = () => {
 											animate={inView ? "visible" : "hidden"}
 											style={{
 												borderRadius: 150,
-												marginLeft: 24,
-												marginTop: 24,
+												marginLeft: -28,
+												marginTop: 12,
 												position: "absolute",
-												width: 300,
-												height: 300,
+												width: 150,
+												height: 150,
 												zIndex: 1,
 												opacity: 0.6,
 											}}
 										/>
 										<ProfileImage
 											src={me}
-											alt={"Ashik Royce"}
+											alt={"Iulian Rotaru"}
 											ref={ref}
 											variants={{
 												hidden: {
@@ -131,14 +123,15 @@ export const Presentation = () => {
 											initial={"hidden"}
 											animate={inView ? "visible" : "hidden"}
 										/>
-									</>
+									</div>
 								)}
 							</InView>
 						</ProfileImageContainer>
-						<TextContainer key={"text"}>
+						<TextContainer>
 							<InView>
 								{({ inView, ref }) => (
 									<Title
+										key='title'
 										variants={{
 											hidden: {
 												x: 20,
@@ -162,6 +155,7 @@ export const Presentation = () => {
 							<InView>
 								{({ inView, ref }) => (
 									<Description
+										key='desc'
 										variants={{
 											hidden: {
 												x: 20,
@@ -187,6 +181,6 @@ export const Presentation = () => {
 					</AnimatePresence>
 				</PresentationContainer>
 			</Element>
-		</Component>
+		</MobileComponent>
 	);
 };

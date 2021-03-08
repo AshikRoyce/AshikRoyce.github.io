@@ -162,12 +162,12 @@ const SkillsCategoryDisplay = (props) => {
 					flexDirection: "row",
 					flexWrap: "wrap",
 				}}>
-				{props.category.skills.map((skill) => (
+				{props.category.skills.map((skill, index) => (
 					<SkillCard
 						selectSkill={props.selectSkill}
 						selectedChallenge={props.selectedChallenge}
 						skill={skill}
-						key={skill.name}
+						key={index}
 					/>
 				))}
 			</div>
@@ -227,10 +227,10 @@ export const SkillsExplorer = (props) => {
 						Click on a skill to see details and associated challenges.
 					</SkillsDescription>
 					<div ref={ref}>
-						{categories.map((category) => (
+						{categories.map((category, index) => (
 							<SkillsCategoryDisplay
 								selectSkill={skillsContext.selectSkill}
-								key={category.name}
+								key={index}
 								selectedChallenge={skillsContext.selectedChallenge}
 								category={category}
 							/>
