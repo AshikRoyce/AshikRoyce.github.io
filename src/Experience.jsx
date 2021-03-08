@@ -21,14 +21,14 @@ export const experienceFn = () => {
 				description: <Text></Text>,
 				category: "Programming Languages",
 				theme: "#277ACC",
-				image: "typescript.png",
+				image: "c.png",
 				createdBy: "Microsoft",
 			},
 		},
 		challenges: [
 			{
 				name: "Tech Lead @ GUVI",
-				image: "guvi.png",
+				image: "poc.jpg",
 				subtitle: "Hello Test",
 				description: <Text></Text>,
 				start: new Date(Date.parse("27 March 2020")),

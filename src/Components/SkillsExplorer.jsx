@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { InView, useInView } from "react-intersection-observer";
 const useMediaQuery = require("react-responsive").useMediaQuery;
 
-import { Experience } from "./Context";
+import { Experience } from "../Context";
 import { SkillModalComponent } from "./SkillModal";
 
 const SkillSectionTitle = styled.h3`

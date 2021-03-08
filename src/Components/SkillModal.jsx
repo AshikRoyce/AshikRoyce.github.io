@@ -5,9 +5,9 @@ import { scroller } from "react-scroll";
 const MediaQuery = require("react-responsive").default;
 const useMediaQuery = require("react-responsive").useMediaQuery;
 
-import { Experience } from "./Context";
+import { Experience } from "../Context";
 
-import { ReactComponent as Close } from "./images/close.svg";
+import { ReactComponent as Close } from "../images/close.svg";
 
 const MobileSkillModalContainer = styled(motion.div)`
 	position: fixed;
@@ -172,7 +172,7 @@ const StaticChallengeCard = (props) => {
 						height: 60,
 						width: 60,
 					}}
-					src={require(`./images/${props.challenge.image}`)}
+					src={require(`./skills/${props.challenge.image}`)}
 					alt={props.challenge.name}
 				/>
 			</div>
@@ -323,7 +323,7 @@ const SkillModalContent = () => {
 				/>
 			</div>
 			<ImageBannerContainer color={lastSkill.theme}>
-				<SkillImage src={require(`./images/${lastSkill.image}`)} />
+				<SkillImage src={require(`./skills/${lastSkill.image}`)} />
 			</ImageBannerContainer>
 			<DescriptionContainer>
 				<Field

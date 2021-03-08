@@ -2,12 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 
-import { ReactComponent as Github } from "./icons/github.svg";
-import { ReactComponent as LinkedIn } from "./icons/linkedin.svg";
-import { ReactComponent as Telegram } from "./icons/telegram.svg";
-import { ReactComponent as Mail } from "./icons/mail.svg";
+import { ReactComponent as Github } from "../icons/github.svg";
+import { ReactComponent as LinkedIn } from "../icons/linkedin.svg";
+import { ReactComponent as Telegram } from "../icons/telegram.svg";
+import { ReactComponent as Mail } from "../icons/mail.svg";
 
-import me from "./images/ashik.JPG";
+import me from "../images/ashik.JPG";
 
 const LeftMenuContainer = styled.div`
 	position: fixed;
@@ -94,7 +94,7 @@ export const LeftMenu = () => {
 				}}
 				initial={{ x: -50, opacity: 0 }}
 				animate={{ x: 0, opacity: 1 }}>
-				<a href='https://linkedin.com/in/AshikRoyce'>
+				<a href='https://linkedin.com/in/AshikRoyce' target='_blank'>
 					<LinkedIn style={{ width: "25px", height: "25px" }} fill={"white"} />
 				</a>
 			</Section>
@@ -110,7 +110,7 @@ export const LeftMenu = () => {
 				}}
 				initial={{ x: -50, opacity: 0 }}
 				animate={{ x: 0, opacity: 1 }}>
-				<a href='https://github.com/AshikRoyce'>
+				<a href='https://github.com/AshikRoyce' target='_blank'>
 					<Github style={{ width: "25px", height: "25px" }} fill={"white"} />
 				</a>
 			</Section>

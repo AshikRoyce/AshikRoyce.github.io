@@ -6,8 +6,8 @@ import moment from "moment";
 const MediaQuery = require("react-responsive").default;
 const useMediaQuery = require("react-responsive").useMediaQuery;
 
-import { Experience } from "./Context";
-import { ReactComponent as Close } from "./images/close.svg";
+import { Experience } from "../Context";
+import { ReactComponent as Close } from "../images/close.svg";
 
 const MobileChallengeModalContainer = styled(motion.div)`
 	position: fixed;
@@ -240,12 +240,7 @@ const ChallengeModalContent = () => {
 				/>
 			</div>
 			<ImageBannerContainer color={lastChallenge.theme}>
-				{console.log(
-					"lastChallenge::",
-					lastChallenge,
-					`./images/${lastChallenge.image}`,
-				)}
-				<ChallengeImage src={require(`./images/${lastChallenge.image}`)} />
+				<ChallengeImage src={require(`./challenges/${lastChallenge.image}`)} />
 			</ImageBannerContainer>
 			<DescriptionContainer>
 				<Field

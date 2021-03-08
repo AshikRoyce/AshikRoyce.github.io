@@ -5,11 +5,11 @@ import { scroller } from "react-scroll";
 import { Experience } from "./Context";
 import { experienceFn } from "./Experience";
 
-import { Header } from "./Header";
-import { Presentation } from "./Presentation";
-import { Skills } from "./Skills";
-import { LeftMenu } from "./LeftMenu";
-import { RightMenu } from "./RightMenu";
+import { Header } from "./Components/Header";
+import { Presentation } from "./Components/Presentation";
+import { Skills } from "./Components/Skills";
+import { LeftMenu } from "./Components/LeftMenu";
+import { RightMenu } from "./Components/RightMenu";
 
 export const getSelection = (skillsAndChallenges) => {
 	const url = new URLSearchParams(window.location.search);

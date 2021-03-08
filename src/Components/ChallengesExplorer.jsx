@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { InView, useInView } from "react-intersection-observer";
 const useMediaQuery = require("react-responsive").useMediaQuery;
 
-import { Experience } from "./Context";
+import { Experience } from "../Context";
 import { ChallengeModalComponent } from "./ChallengeModal";
 
 const ChallengesSectionTitle = styled.h3`
@@ -133,7 +133,7 @@ const ChallengeCard = (props) => {
 							height: 60,
 							width: 60,
 						}}
-						src={require(`./images/${props.challenge.image}`)}
+						src={require(`./challenges/${props.challenge.image}`)}
 						alt={props.challenge.name}
 					/>
 				</div>

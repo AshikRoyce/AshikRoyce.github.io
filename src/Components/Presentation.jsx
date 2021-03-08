@@ -5,7 +5,7 @@ import { InView } from "react-intersection-observer";
 import { Element } from "react-scroll";
 
 import { Component } from "./Common";
-import me from "./images/ashik.JPG";
+import me from "../images/ashik.JPG";
 
 const Title = styled(motion.h1)`
 	text-transform: uppercase;
