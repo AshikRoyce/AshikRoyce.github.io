@@ -268,9 +268,9 @@ export const ChallengesExplorer = (props) => {
 						flexDirection: "column",
 					}}>
 					<ChallengeModalComponent inView={inView} />
-					<ChallengesTitle>Challenges</ChallengesTitle>
+					<ChallengesTitle>Professional summary</ChallengesTitle>
 					<ChallengesDescription>
-						Click on a challenge to see details and associated skills.
+						{/* Click on a challenge to see details and associated skills. */}
 					</ChallengesDescription>
 					<div
 						style={{
@@ -279,7 +279,7 @@ export const ChallengesExplorer = (props) => {
 						<ChallengesSectionDisplay
 							selectedSkill={skillsContext.selectedSkill}
 							selectChallenge={skillsContext.selectChallenge}
-							name={"Current Challenges"}
+							name={"Till date"}
 							challenges={sortedChallenges.current}
 						/>
 					</div>

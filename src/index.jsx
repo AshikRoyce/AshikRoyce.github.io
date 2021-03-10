@@ -49,6 +49,9 @@ const GlobalStyles = createGlobalStyle`
         color: ${(props) => props.theme.textColor};
         font-weight: 200;
     }
+    a {
+        text-decoration: none;
+    }
 `;
 
 ReactDOM.render(

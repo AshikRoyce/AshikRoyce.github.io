@@ -222,9 +222,9 @@ export const SkillsExplorer = (props) => {
 						/>
 					) : null}
 					<SkillModalComponent inView={inView} />
-					<SkillsTitle>Skills</SkillsTitle>
+					<SkillsTitle>Tech stack</SkillsTitle>
 					<SkillsDescription>
-						Click on a skill to see details and associated challenges.
+						{/* Click on a skill to see details and associated challenges. */}
 					</SkillsDescription>
 					<div ref={ref}>
 						{categories.map((category, index) => (
