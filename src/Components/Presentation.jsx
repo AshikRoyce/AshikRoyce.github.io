@@ -15,6 +15,11 @@ const Title = styled(motion.h1)`
 	margin: 0;
 `;
 
+const SoftBold = styled(motion.span)`
+	font-weight: 400;
+	opacity: 1;
+`;
+
 const Description = styled(motion.p)`
 	line-break: strict;
 	max-width: 500px;
@@ -179,7 +184,19 @@ export const Presentation = () => {
 										initial={"hidden"}
 										animate={inView ? "visible" : "hidden"}
 										ref={ref}>
-										I'm a Software Engineer based in Chennai
+										Hello, I am glad to introduce me. I Ashik a young and
+										passionate software developer with proven experience based
+										in Chennai. I have extensive expertise in looking at problem
+										and provide inventive solution. I prefer to be inventor than
+										being innovator. I enjoy playing with codes and bugs.
+										Shortly after graduating from{" "}
+										<SoftBold>Zoho School</SoftBold>, I jumped into the world of
+										technology. I look at things around me optimistically.
+										Benevolent in nature and easy going. Wanna grab a cup of
+										chai..{" "}
+										<a href='https://twitter.com/AshikRoyce' target='_blank'>
+											<SoftBold>Get in touch</SoftBold>
+										</a>
 									</Description>
 								)}
 							</InView>

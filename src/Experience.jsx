@@ -212,6 +212,46 @@ export const experienceFn = () => {
 				image: "storybook.png",
 			},
 
+			struts2: {
+				name: "Struts 2",
+				key: "struts2",
+				level: 3,
+				description: (
+					<Text>
+						Apache Struts 2 is an open-source web application framework for
+						developing Java EE web applications. It uses and extends the Java
+						Servlet API to encourage developers to adopt a model–view–controller
+						(MVC) architecture. The WebWork framework spun off from Apache
+						Struts 1 aiming to offer enhancements and refinements while
+						retaining the same general architecture of the original Struts
+						framework. In December 2005, it was announced that WebWork 2.2 was
+						adopted as Apache Struts 2, which reached its first full release in
+						February 2007.
+					</Text>
+				),
+				category: "Framework & Libraries",
+
+				theme: "#A33F62",
+				image: "storybook.png",
+			},
+
+			chakraui: {
+				name: "Chakra UI",
+				key: "chakraui",
+				level: 3,
+				description: (
+					<Text>
+						Chakra UI provides a set of accessible, reusable, and composable
+						React components that make it super easy to create websites and
+						apps.
+					</Text>
+				),
+				category: "Framework & Libraries",
+
+				theme: "#A33F62",
+				image: "storybook.png",
+			},
+
 			// INFRASTRUCTURES
 			docker: {
 				name: "Docker",

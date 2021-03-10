@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import { Element } from "react-scroll";
+import { Element, scroller } from "react-scroll";
 import { Component } from "./Common";
 
 const HeaderContainer = styled.div`
@@ -51,6 +51,12 @@ const SoftBold = styled(motion.span)`
 	opacity: 1;
 `;
 
+const SoftBoldAncher = styled(motion.span)`
+	font-weight: 400;
+	opacity: 1;
+	cursor: pointer;
+`;
+
 export const Header = () => {
 	return (
 		<Component>
@@ -75,24 +81,33 @@ export const Header = () => {
 							transition={{ duration: 2 }}
 							initial={{ x: 20, opacity: 0 }}
 							animate={{ x: 0, opacity: 1 }}>
-							Ashik Royce,
+							Ashik,
 						</Name>
 						<Subtitle
 							transition={{ duration: 2, delay: 0.5 }}
 							initial={{ x: 20, opacity: 0 }}
 							animate={{ x: 0, opacity: 0.6 }}>
-							I craft softwares 🛠.
+							I craft products 🛠
 						</Subtitle>
 						<Description
 							transition={{ duration: 1, delay: 1 }}
 							initial={{ opacity: 0 }}
 							animate={{ opacity: 0.6 }}>
-							I'm a <SoftBold>Software Engineer</SoftBold> based in Chennai. I
-							consider myself as a <SoftBold>versatile developer</SoftBold>,
-							able to adapt to all sorts of constraints, languages and
-							technologies. I build complete products, from apps to backend, and{" "}
-							<SoftBold>love doing it</SoftBold>. Don't hesitate to get in touch
-							!
+							Passionate <SoftBold>Product Architect</SoftBold>. I build
+							multifaceted technical solution for business objective. I am adept
+							in customer research, product architectural design and delivery.{" "}
+							<br />
+							To explore more..{" "}
+							<SoftBoldAncher
+								onClick={() => {
+									scroller.scrollTo("presentation", {
+										duration: 500,
+										delay: 0,
+										smooth: "easeInOutQuart",
+									});
+								}}>
+								Click here
+							</SoftBoldAncher>
 						</Description>
 					</div>
 				</HeaderContainer>
