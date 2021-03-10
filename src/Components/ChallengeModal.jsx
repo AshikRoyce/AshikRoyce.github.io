@@ -247,10 +247,10 @@ const ChallengeModalContent = () => {
 					style={{
 						margin: 0,
 					}}>
-					challenge
+					Organization
 				</Field>
 				<ChallengeTitle>{lastChallenge.name}</ChallengeTitle>
-				<Field>dates</Field>
+				<Field>Time frame</Field>
 				<DateText
 					style={{
 						marginTop: 12,
@@ -259,7 +259,7 @@ const ChallengeModalContent = () => {
 					{lastChallenge.end ? formatDate(lastChallenge.end) : "now"}
 				</DateText>
 				<DateText>{duration}</DateText>
-				<Field>Description</Field>
+				<Field>Roles and Responsibilities</Field>
 				<DescriptionText>{lastChallenge.description}</DescriptionText>
 				{lastChallenge.link ? (
 					<WebsiteLink
