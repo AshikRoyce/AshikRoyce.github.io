@@ -376,10 +376,38 @@ export const experienceFn = () => {
 			// },
 
 			// PROGRAMMING LANGUAGES
+			html: {
+				name: "HTML",
+				key: "html",
+				level: 5,
+				description: (
+					<Text>
+					</Text>
+				),
+				light: true,
+				category: "Programming Languages",
+				theme: "#F8E321",
+				image: "javascript.png",
+				// createdBy: "Netscape",
+			},
+			css: {
+				name: "CSS",
+				key: "css",
+				level: 5,
+				description: (
+					<Text>
+					</Text>
+				),
+				light: true,
+				category: "Programming Languages",
+				theme: "#F8E321",
+				image: "javascript.png",
+				// createdBy: "Netscape",
+			},
 			javascript: {
 				name: "Javascript",
 				key: "javascript",
-				level: 4,
+				level: 5,
 				description: (
 					<Text>
 						JavaScript (JS) is a lightweight, interpreted, or just-in-time
@@ -418,6 +446,20 @@ export const experienceFn = () => {
 				theme: "#F8E321",
 				image: "javascript.png",
 				createdBy: "Oracle Corporation",
+			},
+			python: {
+				name: "Python",
+				key: "python",
+				level: 5,
+				description: (
+					<Text>
+					</Text>
+				),
+				light: true,
+				category: "Programming Languages",
+				theme: "#F8E321",
+				image: "javascript.png",
+				// createdBy: "Netscape",
 			},
 
 			// SYSTEM
