@@ -522,7 +522,8 @@ export const experienceFn = () => {
 				</Text>,
 				start: new Date(Date.parse("27 March 2020")),
 				link: "https://guvi.in",
-				theme: "#000000",
+				theme: "#fff",
+				light: true,
 				skills: ["typescript", "technicallead", "entrepreneurship"],
 			},
 			{
@@ -547,7 +548,8 @@ export const experienceFn = () => {
 				start: new Date(Date.parse("18 Jul 2018")),
 				end: new Date(Date.parse("26 March 2020")),
 				link: "https://workativ.com",
-				theme: "#000000",
+				theme: "#fff",
+				light: true,
 				skills: ["typescript", "technicallead", "entrepreneurship"],
 			},
 			{
@@ -562,7 +564,8 @@ export const experienceFn = () => {
 				start: new Date(Date.parse("01 March 2018")),
 				end: new Date(Date.parse("17 Jul 2018")),
 				link: "https://facilio.com/",
-				theme: "#000000",
+				theme: "#fff",
+				light: true,
 				skills: ["typescript", "technicallead", "entrepreneurship"],
 			},
 			{
@@ -594,7 +597,8 @@ export const experienceFn = () => {
 				start: new Date(Date.parse("01 Dec 2016")),
 				end: new Date(Date.parse("28 Feb 2018")),
 				link: "https://zoho.com/", 
-				theme: "#000000",
+				theme: "#fff",
+				light: true,
 				skills: ["typescript", "technicallead", "entrepreneurship"],
 			},
 			{
@@ -614,7 +618,8 @@ export const experienceFn = () => {
 				start: new Date(Date.parse("15 Jun 2016")),
 				end: new Date(Date.parse("30 Nov 2016")),
 				link: "https://www.zohoschools.com/",
-				theme: "#000000",
+				theme: "#fff",
+				light: true,
 				skills: [
 					"java",
 					"postgresql",
