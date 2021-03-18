@@ -517,17 +517,17 @@ export const experienceFn = () => {
 				subtitle: "Development Engineer",
 				description: (
 					<Text>
-						Collaborated with cross-functional development team members to
-						analyze the potential system solutions based on evolving client
-						requirements. Worked with project managers, developers, quality
-						assurance and customers to resolve technical issues. Gathered data
-						on integration issues and vulnerabilities and reported all findings
-						to Project Manager with improvement recommendations. Trained and
-						mentored junior developers and engineers, teaching skills in Node,
-						React, Functional Programming and working to improve overall team
-						performance. Suggested improvements to team and project workflow.
-						Estimated work hours and tracked progress using Agile/SCRUM
-						methodology.
+						The Career changing phase.
+						<br />	<br />
+						Workativ, marks a drastic change in my career and transformed me from developer to product person.
+						<br />	<br />
+						Entered in to Workatvi's small nest as first single technical engineer.Workativ assistant, a workplace support automation SaaS platform designed to transform the way companies provide IT & HR support to employees.
+						<br />	<br />
+						The primary goal of the product is to  reduce helpdesk and IT & HR support costs, automation capabilities to help employees self resolve repetitive IT and HR issues and service requests autonomously without the need to contact Helpdesk or HR teams.
+						<br />	<br />
+						Workativ is an emerging start up where we were only 5 employees in total and I was a single technical engineer.
+						<br />	<br />
+						I started experimenting with getting only 5-6 hours of sleep so that I could get better knowledge of the product.I built each and every piece of core technical team providing an end to end solution. I also played an extensive role in recruiting team,product road map design. This place showed me how the business runs,market demands, product lifecycle and accelerated  to craft products on my own.
 					</Text>
 				),
 				start: new Date(Date.parse("18 Jul 2018")),
@@ -542,16 +542,7 @@ export const experienceFn = () => {
 				subtitle: "Software Engineer",
 				description: (
 					<Text>
-						Specify power supply requirements and configuration. Develop testing
-						programs that address areas such as database impacts, software
-						scenarios, regression testing, negative testing, error or bug
-						retest, or usability. Analyze user needs and software requirements
-						to determine feasibility of design within time and cost constraints.
-						Design, develop and modify software systems, using scientific
-						analysis and mathematical models to predict and measure outcome and
-						consequences of design. Train users to use new or modified
-						equipment. Store, retrieve, and manipulate data for analysis of
-						system capabilities and requirements.
+						As quotes say, Change is constant.I shifted my career from Zoho to Facilio. I took up the responsibility of full stack engineer and developing backend API's ,frontend system using Vue js for Facilio products. The system was designed having user experience as target.Facilio products visualize the power/energy consumed in charts for analysis, Also has a live tracking system.I travelled along with Facilio only for 5 months, Because destiny had a bigger milestone in my career to explore the different version of me. Stay tuned for the most interesting phase of my career.Despite of short duration i thoroughly enjoyed working with Facilio.
 					</Text>
 				),
 				start: new Date(Date.parse("01 March 2018")),
@@ -566,36 +557,48 @@ export const experienceFn = () => {
 				subtitle: "Associate Software Engineer",
 				description: (
 					<Text>
-						Debugged code and located root causes of problems by reviewing
-						configuration files and logs. Fixed Core issues effectively using
-						React and Java, increasing productivity and boosting workflows.
-						Authored and maintained well-organized, efficient and successful
-						manual test cases for entire team. Evaluated function, performance
-						and design compliance of every product against design standards and
-						customer needs. Collaborated with developers and product owners to
-						stay current on product features and intended functionality.
+						Continued from Zoho university,
+						<br />	<br />
+						Well, After skilling up from Zoho University stepped in to real time projects. The path to developer starts here.
+						<br />	<br />
+						I was ready for my first project Zoho people, A time tracking application for Zoho employees. Production source code seemed to be Greek and Latin for newbie me and first two weeks were pretty chaotic. I do things without exploring on how it happened and assume to be magical. Thankfully I had good mentors in team who motivated me to overcome fear of failures and push myself beyond extent. I poured my ideas in designing and development using Java and JSP. In short span collaborated with product manger to design user flow, UI/UX design. I look back and cherish initial days memories.
+						<br />	<br />
+						After five months of hardship, Zoho people evolved out to be the most entailed time tracking app.
+						<br />	<br />
+						As we heard, The life is so magical and future is unforeseeable. The next challenge awaits for sculpting me in different dimension
+						<br />	<br />
+						Few days later, I was assigned to migrate Zoho desk, A substantial ticket management tool from JSP to React application.
+						<br />	<br />
+						There were times I wished to know on React and the documentation petrified me. I used to thrive in self paced conditions and started experimenting React in Zoho desk.
+						<br />	<br />
+						This enlightened me that a good developer is not who writes million lines of code but should be able to effectively maintain the performance.Collaborated in a team focused environment to achieve performance improvement to reduce initial loading page from 3.6 seconds to 2.5 seconds. I still thank each and everyone who stood by beside me.
+
+						<br />	<br />
+						Struggle did not stop here.. To be continued!
 					</Text>
 				),
-				start: new Date(Date.parse("01 Feb 2017")),
+				start: new Date(Date.parse("01 Dec 2016")),
 				end: new Date(Date.parse("28 Feb 2018")),
-				link: "https://zoho.com/",
+				link: "https://zoho.com/", 
 				theme: "#000000",
 				skills: ["typescript", "technicallead", "entrepreneurship"],
 			},
 			{
-				name: "Zoho Schools",
+				name: "Zoho University",
 				image: "poc.jpg",
 				subtitle: "Software Development Intern",
 				description: (
 					<Text>
-						Getting deep understanding about computer software working
-						principals. Learn about what is software as a service products. how
-						they can improve customers productivity. Constant understanding
-						about client server architecture. Handling highly scalable databases
+						What I cracked?
+						<br />	<br />
+						The journey of my dream from scratch without a bachelor degree kickstarted at Zoho university. Just after graduating from high school, jumped in at ZU where i quickly grasped underlying basics of web development. HTML, CSS, Bootstrap, Javascript, Jquery, Java, MySQL, PostgreSQL, HTTP protocol.
+						<br />	<br />
+						I have to say, I was thrilled to get my hands dirty in cloning UI of Book my Show, Amazon,Reddit as mini projects exclusively with HTML and Bootstrap. I believe in "learn and let learn" and spread the acquired knowledge to my fellow buddies.<br />
+						Zoho university flipped a neophyte into a moderate coder. Learning is a lifelong process, No end. To be continued!
 					</Text>
 				),
 				start: new Date(Date.parse("15 Jun 2016")),
-				end: new Date(Date.parse("31 Jan 2017")),
+				end: new Date(Date.parse("30 Nov 2016")),
 				link: "https://www.zohoschools.com/",
 				theme: "#000000",
 				skills: [
@@ -608,9 +611,9 @@ export const experienceFn = () => {
 				],
 			},
 		],
-		selectChallenge: () => {},
+		selectChallenge: () => { },
 		selectedChallenge: null,
-		selectSkill: () => {},
+		selectSkill: () => { },
 		selectedSkill: null,
 	};
 };
