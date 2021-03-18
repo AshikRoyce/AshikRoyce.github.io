@@ -505,7 +505,15 @@ export const experienceFn = () => {
 				name: "GUVI",
 				image: "poc.jpg",
 				subtitle: "Lead Software Engineer",
-				description: <Text></Text>,
+				description: <Text>
+					If you could recollect, I stated that I believe in learning and let learn.Out of my interest joined in Guvi as a mentor to spread knowledge across people.
+					<br />	<br />
+					I was a part time mentor in GUVI training students on emerging technologies.GUVI an educational platform offered me an opportunity to develop customised products meeting educational needs. I had a chance to meet young aspiring minds who would be tech giants in near future.
+					<br />	<br />
+					I have been handling the mentor team, Course review team, Placement team. I single handedly crafted Zenclass, a product that manages curriculum of students and tracks their performance.
+					<br />	<br />
+					Should you have any questions and to know more...Get in touch! 
+				</Text>,
 				start: new Date(Date.parse("27 March 2020")),
 				link: "https://guvi.in",
 				theme: "#000000",
