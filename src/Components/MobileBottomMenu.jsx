@@ -8,7 +8,7 @@ import React, { useContext } from "react";
 import { motion } from "framer-motion";
 import { Experience } from "../Context";
 
-import me from "../images/ashik.JPG";
+import me from "../images/ashik.jpg";
 
 const LeftMenuContainer = styled(motion.div)`
 	position: fixed;

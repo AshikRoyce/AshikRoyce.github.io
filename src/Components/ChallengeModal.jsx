@@ -240,7 +240,7 @@ const ChallengeModalContent = () => {
 				/>
 			</div>
 			<ImageBannerContainer color={lastChallenge.theme}>
-				{/* <ChallengeImage src={require(`./challenges/${lastChallenge.image}`)} /> */}
+				<ChallengeImage src={lastChallenge.image} />
 			</ImageBannerContainer>
 			<DescriptionContainer>
 				<Field

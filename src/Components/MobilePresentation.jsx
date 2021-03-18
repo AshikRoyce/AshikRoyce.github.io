@@ -6,7 +6,7 @@ import { Element } from "react-scroll";
 
 import { MobileComponent } from "./Common";
 
-import me from "../images/ashik.JPG";
+import me from "../images/ashik.jpg";
 
 const Title = styled(motion.h1)`
 	text-transform: uppercase;

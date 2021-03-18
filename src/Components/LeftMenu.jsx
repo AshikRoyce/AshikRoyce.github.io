@@ -7,7 +7,7 @@ import { ReactComponent as LinkedIn } from "../icons/linkedin.svg";
 import { ReactComponent as Telegram } from "../icons/telegram.svg";
 import { ReactComponent as Mail } from "../icons/mail.svg";
 
-import me from "../images/ashik.JPG";
+import me from "../images/ashik.jpg";
 
 const LeftMenuContainer = styled.div`
 	position: fixed;

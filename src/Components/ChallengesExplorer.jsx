@@ -127,15 +127,15 @@ const ChallengeCard = (props) => {
 						width: 60,
 						height: 60,
 					}}>
-					{/* <img
+					<img
 						style={{
 							borderRadius: 8,
 							height: 60,
 							width: 60,
 						}}
-						src={require(`./challenges/${props.challenge.image}`)}
+						src={props.challenge.image}
 						alt={props.challenge.name}
-					/> */}
+					/>
 				</div>
 				<ChallengeTextContainer>
 					<span>{props.challenge.name}</span>

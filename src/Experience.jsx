@@ -1,6 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 
+import zohoscl from './images/zohoschool.jpg'
+import zohocorp from './images/zohocorp.jpg'
+import facilio from './images/facilio.jpg'
+import workativ from './images/workativ.jpg'
+import guvi from './images/guvi.jpg'
+
 const Text = styled.h4`
 	margin: 0;
 	margin-top: 12px;
@@ -503,7 +509,7 @@ export const experienceFn = () => {
 		challenges: [
 			{
 				name: "GUVI",
-				image: "poc.jpg",
+				image: guvi,
 				subtitle: "Lead Software Engineer",
 				description: <Text>
 					If you could recollect, I stated that I believe in learning and let learn.Out of my interest joined in Guvi as a mentor to spread knowledge across people.
@@ -521,7 +527,7 @@ export const experienceFn = () => {
 			},
 			{
 				name: "Workativ",
-				image: "poc.jpg",
+				image: workativ,
 				subtitle: "Development Engineer",
 				description: (
 					<Text>
@@ -546,7 +552,7 @@ export const experienceFn = () => {
 			},
 			{
 				name: "Facilio",
-				image: "poc.jpg",
+				image: facilio,
 				subtitle: "Software Engineer",
 				description: (
 					<Text>
@@ -561,7 +567,7 @@ export const experienceFn = () => {
 			},
 			{
 				name: "Zoho Corp",
-				image: "poc.jpg",
+				image: zohocorp,
 				subtitle: "Associate Software Engineer",
 				description: (
 					<Text>
@@ -593,7 +599,7 @@ export const experienceFn = () => {
 			},
 			{
 				name: "Zoho University",
-				image: "poc.jpg",
+				image: zohoscl,
 				subtitle: "Software Development Intern",
 				description: (
 					<Text>
