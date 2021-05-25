@@ -84,17 +84,18 @@ const StaticSkillCard = (props) => {
 	return (
 		<StaticSkillCardContainer
 			onClick={() => {
-				skillsContext.selectChallenge(null);
-				setTimeout(() => {
-					scroller.scrollTo("skills", {
-						duration: 500,
-						delay: 0,
-						smooth: "easeInOutQuart",
-					});
-				}, 500);
-				setTimeout(() => {
-					skillsContext.selectSkill(props.skill);
-				}, 1000);
+				// skillsContext.selectChallenge(null);
+				// setTimeout(() => {
+				// 	scroller.scrollTo("skills", {
+				// 		duration: 500,
+				// 		delay: 0,
+				// 		smooth: "easeInOutQuart",
+				// 	});
+				// }, 500);
+				// setTimeout(() => {
+				// 	skillsContext.selectSkill(props.skill);
+				// }, 1000);
+				window.open(props.skill.url)
 			}}>
 			<span>{props.skill.name}</span>
 		</StaticSkillCardContainer>

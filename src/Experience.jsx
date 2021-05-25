@@ -194,7 +194,7 @@ export const experienceFn = () => {
 				link: "https://rapidautomation.ai/",
 				theme: "#fff",
 				light: true,
-				skills: ["typescript", "technicallead", "entrepreneurship"],
+				skills: [],
 			},
 			{
 				name: "GUVI",
@@ -214,7 +214,7 @@ export const experienceFn = () => {
 				link: "https://guvi.in",
 				theme: "#fff",
 				light: true,
-				skills: ["typescript", "technicallead", "entrepreneurship"],
+				skills: ["typescript"],
 			},
 			{
 				name: "Workativ",
@@ -240,7 +240,7 @@ export const experienceFn = () => {
 				link: "https://workativ.com",
 				theme: "#fff",
 				light: true,
-				skills: ["typescript", "technicallead", "entrepreneurship"],
+				skills: [],
 			},
 			{
 				name: "Facilio",
@@ -256,7 +256,7 @@ export const experienceFn = () => {
 				link: "https://facilio.com/",
 				theme: "#fff",
 				light: true,
-				skills: ["typescript", "technicallead", "entrepreneurship"],
+				skills: [],
 			},
 			{
 				name: "Zoho Corp",
@@ -289,7 +289,7 @@ export const experienceFn = () => {
 				link: "https://zoho.com/", 
 				theme: "#fff",
 				light: true,
-				skills: ["typescript", "technicallead", "entrepreneurship"],
+				skills: [],
 			},
 			{
 				name: "Zoho University",
