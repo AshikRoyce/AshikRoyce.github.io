@@ -26,7 +26,7 @@ const SkillCardContainer = styled(motion.div)`
 	padding-left: 10px;
 	padding-right: 10px;
 	margin: 4px;
-	cursor: pointer;
+	cursor: help;
 
 	& span {
 		font-weight: 400;
@@ -66,7 +66,8 @@ const SkillCard = (props) => {
 	return (
 		<motion.div
 			onClick={() => {
-				props.selectSkill(props.skill);
+				// props.selectSkill(props.skill);
+				window.open(props.skill.url);
 			}}
 			transition={{ type: "spring", stiffness: 100 }}
 			whileHover={{ scale: 1.1 }}
