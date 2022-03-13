@@ -186,11 +186,25 @@ export const experienceFn = () => {
 			{
 				name: "RAP Ventures",
 				image: rap,
+				subtitle: "Principal Product Manager",
+				description: <Text>
+					Should you have any questions and to know more...Get in touch! 
+				</Text>,
+				start: new Date(Date.parse("01 Feb 2021")),
+				link: "https://rapidautomation.ai/",
+				theme: "#fff",
+				light: true,
+				skills: [],
+			},
+			{
+				name: "RAP Ventures",
+				image: rap,
 				subtitle: "Engineering Manager",
 				description: <Text>
 					Should you have any questions and to know more...Get in touch! 
 				</Text>,
 				start: new Date(Date.parse("01 April 2021")),
+				end: new Date(Date.parse("31 Jan 2021")),
 				link: "https://rapidautomation.ai/",
 				theme: "#fff",
 				light: true,
